@@ -1,9 +1,7 @@
-package chap03.main;
+package chap06.main;
 
-import chap03.config.AppConf1;
-import chap03.config.AppConfImport;
-import chap03.config.AppCtx;
-import chap03.spring.*;
+import chap06.config.AppCtx;
+import chap06.spring.*;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -15,13 +13,7 @@ public class MainForSpring {
     private static ApplicationContext ctx = null;
 
     public static void main(String[] args) throws IOException {
-        ctx = new AnnotationConfigApplicationContext(AppConf1.class);
-
-        //test code
-        AppConf1 appConf1 = ctx.getBean(AppConf1.class);
-        System.out.println("AppConf1h isn't null : "+appConf1 != null);
-
-        ctx = new AnnotationConfigApplicationContext(AppConfImport.class);
+        ctx = new AnnotationConfigApplicationContext(AppCtx.class);
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         while(true) {
