@@ -1,4 +1,4 @@
-package chap11.spring;
+package chap11_12.spring;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;

@@ -1,8 +1,8 @@
-package chap11.config;
+package chap11_12.config;
 
-import chap11.controller.RegisterController;
-import chap11.spring.MemberRegisterService;
-import chap11.survey.SurveyController;
+import chap11_12.controller.RegisterController;
+import chap11_12.spring.MemberRegisterService;
+import chap11_12.survey.SurveyController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

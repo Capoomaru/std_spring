@@ -1,8 +1,8 @@
-package chap11.config;
+package chap11_12.config;
 
-import chap11.spring.ChangePasswordService;
-import chap11.spring.MemberDao;
-import chap11.spring.MemberRegisterService;
+import chap11_12.spring.ChangePasswordService;
+import chap11_12.spring.MemberDao;
+import chap11_12.spring.MemberRegisterService;
 import org.apache.tomcat.jdbc.pool.DataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

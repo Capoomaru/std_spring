@@ -1,4 +1,4 @@
-package chap11.dbquery;
+package chap11_12.dbquery;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

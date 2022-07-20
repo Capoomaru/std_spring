@@ -1,4 +1,4 @@
-package chap11.survey;
+package chap11_12.survey;
 
 public class Respondent {
 

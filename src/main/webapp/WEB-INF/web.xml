@@ -26,10 +26,10 @@
                 chap09.config.ControllerConfig
 -->
 
-<!--                chap11-->
-                chap11.config.MemberConfig
-                chap11.config.MvcConfig
-                chap11.config.ControllerConfig
+<!--                chap11_12-->
+                chap11_12.config.MemberConfig
+                chap11_12.config.MvcConfig
+                chap11_12.config.ControllerConfig
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
